@@ -1,0 +1,16 @@
+[package]
+name = "shortdoc-template"
+version = "0.0.1"
+entrypoint = "shortdoc-template.typ"
+authors = ["Benjamin Doran"]
+license = "MIT"
+description = "Basic template for notes including theorems and proofs"
+repository = "https://github.com/BenjaminDoran/bens-typst-templates"
+keywords = [
+    "template"
+]
+categories = ["layout", "utility"]
+compiler = "0.13.0"
+
+[tool.packager]
+paths = ["shortdoc-template.typ", "LICENSE", "README.md"]

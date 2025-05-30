@@ -1,0 +1,16 @@
+[package]
+name = "disseration-template"
+version = "0.0.1"
+entrypoint = "disseration-template.typ"
+authors = ["Benjamin Doran"]
+license = "MIT"
+description = "Basic template for dissertations including theorems and proofs"
+repository = "https://github.com/BenjaminDoran/typst-templates"
+keywords = [
+    "template"
+]
+categories = ["layout", "utility"]
+compiler = "0.13.0"
+
+[tool.packager]
+paths = ["disseration-template.typ", "LICENSE", "README.md"]
