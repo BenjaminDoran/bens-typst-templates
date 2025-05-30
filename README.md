@@ -1,3 +1,8 @@
+# Description
+This is just me playing around with getting some simple and personal templates together. 
+
+Feel free to use, But I'm offering no support.
+
 # install to personal computer
 
 ```
