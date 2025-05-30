@@ -61,7 +61,7 @@
   }
 
   // default link listing format 
-  show link: underline
+  // show link: underline
   set enum(numbering: "1.a.i.")
 
   let frame(stroke) = (x, y) => (
@@ -218,7 +218,12 @@
   // Update settings for main body
   set heading(numbering: "1.")
   set page(numbering: "1", number-align: center)
-  set par(leading: 1.25*fontsize, spacing: 1.25*fontsize, justify: true)
+  set par(
+    leading: 1.25*fontsize, 
+    spacing: 1.25*fontsize, 
+    justify: true, 
+    first-line-indent: 1.5em
+  )
   counter(page).update(1)
 
   // Show main text

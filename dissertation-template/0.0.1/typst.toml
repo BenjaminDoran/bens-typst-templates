@@ -1,7 +1,7 @@
 [package]
-name = "disseration-template"
+name = "dissertation-template"
 version = "0.0.1"
-entrypoint = "disseration-template.typ"
+entrypoint = "dissertation-template.typ"
 authors = ["Benjamin Doran"]
 license = "MIT"
 description = "Basic template for dissertations including theorems and proofs"
@@ -13,4 +13,4 @@ categories = ["layout", "utility"]
 compiler = "0.13.0"
 
 [tool.packager]
-paths = ["disseration-template.typ", "LICENSE", "README.md"]
+paths = ["dissertation-template.typ", "LICENSE", "README.md"]
